@@ -3,4 +3,11 @@ os: linux
 files:
   - source: /
     destination: /home/ubuntu/vitecode
+steps:
+  - name: Run Bash Script
+    run: 
+      cd  /home/ubuntu/vitecode
+      npm install
+      npm run dev -- --host
+
 
