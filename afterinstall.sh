@@ -1,4 +1,4 @@
 #!/bin/bash
 
 cd /home/ubuntu/vitcode
-npm -f install
+npm run dev -- --host
