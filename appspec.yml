@@ -3,7 +3,4 @@ os: linux
 files:
   - source: /
     destination: /home/ubuntu/vitecode
-hooks:
-  ApplicationStart:
-    - location: applicationstart.sh
-      timeout: 100
+
